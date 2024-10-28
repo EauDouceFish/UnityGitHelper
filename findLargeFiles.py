@@ -82,7 +82,7 @@ def main():
         print(f"Found {len(large_files)} file(s) more than 100MB.")
         for file in large_files:
             print(file)
-        output_file = os.path.join(directory, 'PyRecommend')
+        output_file = os.path.join(directory, 'PyRecommend.txt')
         write_lfs_tracklist(large_files, output_file)
         print(f"PyRecommend File {output_file} summoned successfully.")
     else:
